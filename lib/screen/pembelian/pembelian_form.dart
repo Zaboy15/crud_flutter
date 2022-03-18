@@ -39,17 +39,17 @@ class _CreatePembelianFormState extends State<CreatePembelianForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text("Request for Overtime",
+          title: Text("Form Pembelian",
               style: new TextStyle(
                 color: Colors.white,
               )),
           backgroundColor: kPrimaryColor,
           centerTitle: true),
-      body: _formLeave(),
+      body: _form(),
     );
   }
 
-  Widget _formLeave() {
+  Widget _form() {
     return Container(
       margin: EdgeInsets.all(8.0),
       child: BlocProvider(
